@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns00000000011" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x6D6E71">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns00000000111" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x6D6E71">
   <layouts>
-    <layout name="npnxnanbsnfns00000000011" font="Lato" controllayout="npnxnanbsnfns00000000011" colorscheme="pxabnsnfns00000000011" string_table="pxabnsnfns00000000011" />
-    <layout name="pxabnsnfns00000000011" font="Lato" controllayout="pxabnsnfns00000000011" colorscheme="pxabnsnfns00000000011" string_table="pxabnsnfns00000000011" />
-    <layout name="npxnabnsnfns00000000011" font="Lato" controllayout="npxnabnsnfns00000000011" colorscheme="pxabnsnfns00000000011" string_table="pxabnsnfns00000000011" />
-    <layout name="npnxnanbnsnfns00000000011" font="Lato" controllayout="npnxnanbnsnfns00000000011" colorscheme="pxabnsnfns00000000011" string_table="pxabnsnfns00000000011" />
-    <layout name="pxabnsnfns00000000010" font="Lato" controllayout="pxabnsnfns00000000010" colorscheme="pxabnsnfns00000000011" string_table="pxabnsnfns00000000011" />
+    <layout name="npnxnanbsnfns00000000111" font="Tahoma" controllayout="npnxnanbsnfns00000000111" colorscheme="npnxnanbnsnfns00000000111" string_table="npnxnanbnsnfns00000000111" />
+    <layout name="pxabnsnfns00000000111" font="Tahoma" controllayout="pxabnsnfns00000000111" colorscheme="npnxnanbnsnfns00000000111" string_table="npnxnanbnsnfns00000000111" />
+    <layout name="npxnabnsnfns00000000111" font="Tahoma" controllayout="npxnabnsnfns00000000111" colorscheme="npnxnanbnsnfns00000000111" string_table="npnxnanbnsnfns00000000111" />
+    <layout name="npnxnanbnsnfns00000000111" font="Tahoma" controllayout="npnxnanbnsnfns00000000111" colorscheme="npnxnanbnsnfns00000000111" string_table="npnxnanbnsnfns00000000111" />
+    <layout name="pxabnsnfns00000000110" font="Tahoma" controllayout="pxabnsnfns00000000110" colorscheme="npnxnanbnsnfns00000000111" string_table="npnxnanbnsnfns00000000111" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -21,7 +21,7 @@
           </option>
           <option name="sidebar_enabled" value="false">
             <options>
-              <option name="sidebarpos" value="left" />
+              <option name="sidebarpos" value="right" />
               <option name="closed" value="true" />
             </options>
           </option>
@@ -58,7 +58,7 @@
       </optiongroup>
       <optiongroup name="controls">
         <options>
-          <option name="volume" value="false" />
+          <option name="volume" value="true" />
           <option name="seekbar" value="false">
             <options>
               <option name="readonly" value="false" />
@@ -70,7 +70,7 @@
           <option name="replay" value="false" />
           <option name="closed_captions" value="false">
             <options>
-              <option name="font" value="Lato" />
+              <option name="font" value="Tahoma" />
             </options>
           </option>
           <option name="settings" value="false" />
@@ -89,11 +89,16 @@
           <option name="submit" value="icon" />
         </options>
       </optiongroup>
+      <optiongroup name="courseOptions">
+        <options>
+          <option name="thumbnailEnabled" value="false" />
+        </options>
+      </optiongroup>
     </optiongroups>
   </control_options>
   <control_layouts>
-    <control_layout name="npnxnanbsnfns00000000011">
-      <control name="volume" enabled="false" />
+    <control_layout name="npnxnanbsnfns00000000111">
+      <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
@@ -103,6 +108,7 @@
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="false" />
       <control name="fullScreenToggle" enabled="true" />
+      <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="true" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -116,8 +122,8 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns00000000011">
-      <control name="volume" enabled="false" />
+    <control_layout name="pxabnsnfns00000000111">
+      <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
@@ -127,6 +133,7 @@
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="true" />
       <control name="fullScreenToggle" enabled="true" />
+      <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -140,8 +147,8 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npxnabnsnfns00000000011">
-      <control name="volume" enabled="false" />
+    <control_layout name="npxnabnsnfns00000000111">
+      <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
@@ -151,6 +158,7 @@
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="true" />
       <control name="fullScreenToggle" enabled="true" />
+      <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -164,8 +172,8 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npnxnanbnsnfns00000000011">
-      <control name="volume" enabled="false" />
+    <control_layout name="npnxnanbnsnfns00000000111">
+      <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
@@ -175,6 +183,7 @@
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="false" />
       <control name="fullScreenToggle" enabled="true" />
+      <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -188,8 +197,8 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns00000000010">
-      <control name="volume" enabled="false" />
+    <control_layout name="pxabnsnfns00000000110">
+      <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
@@ -199,6 +208,7 @@
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="true" />
       <control name="fullScreenToggle" enabled="true" />
+      <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -214,7 +224,7 @@
     </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="pxabnsnfns00000000011">
+    <colorscheme name="npnxnanbnsnfns00000000111">
       <color_group name="accessibility">
         <group_colors>
           <color name="focus_rect">
@@ -1392,7 +1402,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="pxabnsnfns00000000011">
+    <string_table name="npnxnanbnsnfns00000000111">
       <string id="three_image_progress_audio">progress</string>
       <string id="three_image_audio">audio</string>
       <string id="three_image_camera_down">camera moved down</string>
@@ -1458,6 +1468,9 @@
       <string id="closed_captions_tip">Toggle captions</string>
       <string id="continue">Continue</string>
       <string id="continueresponsive">Continue</string>
+      <string id="playback_speed_title">Playback Speed</string>
+      <string id="playback_speed_normal">Normal</string>
+      <string id="acc_playback_speed">playback speed</string>
       <string id="ctrl_key">Ctrl</string>
       <string id="enable_keyboardshortcuts">Enable keyboard shortcuts</string>
       <string id="enter_key">Enter</string>
@@ -1531,6 +1544,9 @@
       <string id="acc_skipnavigation">Skip Navigation. Hit enter to return to the slide.</string>
       <string id="slide_text_chk">Slide Text</string>
       <string id="spacebar_key">Space</string>
+      <string id="streaming_video_local_playback_learn_more">Learn more...</string>
+      <string id="streaming_video_local_playback_republish">To preview this video, use the Preview functionality in Storyline, republish your course using standard MP4 video, or publish to Review 360.</string>
+      <string id="streaming_video_local_playback_title">Streaming video is unavailable for local playback.</string>
       <string id="submitall">SUBMIT ALL</string>
       <string id="acc_submitall">submit all</string>
       <string id="submit">SUBMIT</string>
@@ -1541,7 +1557,7 @@
     </string_table>
   </string_tables>
   <fonts>
-    <font name="Lato">
+    <font name="Tahoma">
       <files>
         <file bold="true" italic="false" />
         <file bold="false" italic="false" />
@@ -1552,7 +1568,41 @@
   <nav_data>
     <outline>
       <links>
-        <slidelink slideid="_player.5k59ILwCVvs.6HTgZCjKeQo" displaytext="Signs" expand="false" type="slide" />
+        <slidelink slideid="_player.6FGJ1WUMn44" displaytext="Phishing Simulation" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6FGJ1WUMn44.5zMGILYRg2l" displaytext="I 0r II" expand="false" type="slide" />
+            <slidelink slideid="_player.6FGJ1WUMn44.6COvIM3S2Ms" displaytext="I 0r II" expand="false" type="slide" />
+            <slidelink slideid="_player.6FGJ1WUMn44.6GMTcJqdOMd" displaytext="Start" expand="false" type="slide" />
+            <slidelink slideid="_player.6FGJ1WUMn44.6HSuTSmAljL" displaytext="Form" expand="false" type="slide" />
+            <slidelink slideid="_player.6FGJ1WUMn44.6gz9jWo0mmc" displaytext="Cover" expand="false" type="slide" />
+            <slidelink slideid="_player.5k59ILwCVvs.6VWC6XlcJsZ" displaytext="Quiz" expand="false" type="slide" />
+            <slidelink slideid="_player.5k59ILwCVvs.5s0YZoAE8KX" displaytext="Quiz" expand="false" type="slide" />
+            <slidelink slideid="_player.5k59ILwCVvs.65dOwPFzNk6" displaytext="Quiz" expand="false" type="slide" />
+            <slidelink slideid="_player.5k59ILwCVvs.6K71TIs8iOW" displaytext="Quiz" expand="false" type="slide" />
+            <slidelink slideid="_player.5k59ILwCVvs.5ydP4zqXxMw" displaytext="Quiz" expand="false" type="slide" />
+            <slidelink slideid="_player.5k59ILwCVvs.6ZT6CH30zNh" displaytext="Quiz" expand="false" type="slide" />
+            <slidelink slideid="_player.5k59ILwCVvs.6CDMZZE6zb6" displaytext="Quiz" expand="false" type="slide" />
+            <slidelink slideid="_player.5k59ILwCVvs.6HTgZCjKeQo" displaytext="Signs" expand="false" type="slide" />
+            <slidelink slideid="_player.5k59ILwCVvs.6ohSOnBKpsL" displaytext="Feedback" expand="false" type="slide" />
+            <slidelink slideid="_player.6oSVrVthpfC.5nqVDiIHzaQ" displaytext="Further Training" expand="false" type="slide" />
+            <slidelink slideid="_player.6oSVrVthpfC.5iQ5fEAq92K" displaytext="What can you do?" expand="false" type="slide" />
+            <slidelink slideid="_player.6oSVrVthpfC.5aXbcyZZ8F0" displaytext="Thank you" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="" displaytext="Spot the Red Flags" expand="true" type="slide" />
+        <slidelink slideid="_player.6oSVrVthpfC" displaytext="To click or not to click" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6oSVrVthpfC.5gOm1J4u8Li" displaytext="Quiz" expand="false" type="slide" />
+            <slidelink slideid="_player.6oSVrVthpfC.6AqYXwKs9OT" displaytext="Quiz" expand="false" type="slide" />
+            <slidelink slideid="_player.6oSVrVthpfC.63iks27eP0J" displaytext="Quiz" expand="false" type="slide" />
+            <slidelink slideid="_player.6oSVrVthpfC.67Ofzo9ujTn" displaytext="Quiz" expand="false" type="slide" />
+            <slidelink slideid="_player.6oSVrVthpfC.6mcW3S6dYkX" displaytext="Quiz" expand="false" type="slide" />
+            <slidelink slideid="_player.6oSVrVthpfC.6dGt8zaU4wZ" displaytext="Quiz" expand="false" type="slide" />
+            <slidelink slideid="_player.6oSVrVthpfC.5djgIeCY6gr" displaytext="Quiz" expand="false" type="slide" />
+            <slidelink slideid="_player.6oSVrVthpfC.6lFNKFj6F7T" displaytext="Quiz" expand="false" type="slide" />
+            <slidelink slideid="_player.6oSVrVthpfC.6Rztgp4tAk2" displaytext="Quiz" expand="false" type="slide" />
+          </links>
+        </slidelink>
       </links>
     </outline>
   </nav_data>
